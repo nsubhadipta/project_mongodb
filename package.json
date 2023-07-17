@@ -1,0 +1,30 @@
+{
+  "name": "project_mongodb",
+  "version": "1.0.0",
+  "description": "create api using mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsubhadipta/project_mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Subhadipta Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsubhadipta/project_mongodb/issues"
+  },
+  "homepage": "https://github.com/nsubhadipta/project_mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}

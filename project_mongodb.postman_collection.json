@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "196bd5b6-d677-4fe6-91bd-2411bec62ebb",
+		"name": "project_mongodb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24188196",
+		"_collection_link": "https://www.postman.com/planetary-desert-370039/workspace/music-app/collection/24188196-196bd5b6-d677-4fe6-91bd-2411bec62ebb?action=share&creator=24188196&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/college",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Gopalpur jr college\",\r\n    \"location\":\"gopalpur\",\r\n    \"establishedYear\":1994\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/college",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"college"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/college",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/college",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"college"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"full_name\":\"Lokanath Nayak\",\r\n    \"collegeId\":\"64b5243baa22dd0285f4b490\", //_id of college creation \r\n    \"email\":\"lokanath@gmail.com\",\r\n    \"batch\":\"2010\",\r\n    \"dob\":\"16/09/1991\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/fetch-college-student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/fetch-college-student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"fetch-college-student"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
